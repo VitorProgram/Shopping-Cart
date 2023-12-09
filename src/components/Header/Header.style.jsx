@@ -5,6 +5,7 @@ export const HeaderElement = styled.header`
     background: #fff159;
 
     position: fixed;
+    z-index: 1;
     width: 100%;
 `
 

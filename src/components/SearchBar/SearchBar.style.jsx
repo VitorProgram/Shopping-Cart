@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 // Form 
-export const SearchBarContainer = styled.form = styled.form`
+export const SearchBarContainer = styled.form`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,8 +34,10 @@ export const SearchButton = styled.button`
     justify-content: center;
     padding: .8125rem; // 13px
 
-    &:hover {
-        opacity: .5;
-    }
+    cursor: pointer;
+    transition: color .3s;
 
+    &:hover {
+        color: #616161;
+    }
 `
