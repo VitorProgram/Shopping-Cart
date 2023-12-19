@@ -3,7 +3,7 @@ import { ProductButtonAddCart, ProductContainer, ProductImage, ProductInforms, P
 import { FaCartPlus  } from "react-icons/fa";
 
 import propTypes from 'prop-types'
-import formatCurrency from "../../utils/formatCurrency";
+import formatCurrency from "../../utils/formatCurrency"; // Função de formatação de texto para BRL
 
 function ProductCard ({ data }) {
     const { price, title, thumbnail } = data
